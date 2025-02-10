@@ -5,6 +5,7 @@ import cookieParser from 'cookie-parser';
 import dotenv from 'dotenv'
 import cors from 'cors'
 import http from "http"; 
+import path from "path";
 import testRoute from './routes/test.route.js';
 import userRoute from './routes/user.route.js'
 import chatRoute from './routes/chat.route.js'
