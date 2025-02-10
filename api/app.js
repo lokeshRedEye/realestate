@@ -43,10 +43,10 @@ initializeSocket(server);
 
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static(path.join(__dirname, "../api/dist")));
+    app.use(express.static(path.join(__dirname, "../client/dist")));
   
     app.get("*", (req, res) => {
-      res.sendFile(path.join(__dirname, "../api", "dist", "index.html"));
+      res.sendFile(path.join(__dirname, "../client", "dist", "index.html"));
     });
   }
 
