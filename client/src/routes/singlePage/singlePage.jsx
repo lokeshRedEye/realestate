@@ -75,9 +75,8 @@ function SinglePage() {
       
     }
 
-    
-
   }
+  
 
   return (
     <div className="singlePage">
